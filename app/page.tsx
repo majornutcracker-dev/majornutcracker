@@ -32,9 +32,23 @@ export default function Home() {
           priority
           className="h-8 w-auto sm:h-9"
         />
-        <span className="hidden rounded-full border border-soft-violet/20 px-3 py-1 text-xs text-soft-violet/80 sm:inline">
-          Coming soon
-        </span>
+        <nav className="flex items-center gap-3">
+          <span className="hidden rounded-full border border-soft-violet/20 px-3 py-1 text-xs text-soft-violet/80 sm:inline">
+            Coming soon
+          </span>
+          <a
+            href={site.developersUrl}
+            className="group inline-flex items-center gap-1.5 rounded-full border border-deep-violet/50 bg-deep-violet/15 px-4 py-1.5 text-sm text-cloud transition-colors hover:border-deep-violet hover:bg-deep-violet/30"
+          >
+            Developers
+            <span
+              aria-hidden
+              className="transition-transform group-hover:translate-x-0.5"
+            >
+              →
+            </span>
+          </a>
+        </nav>
       </header>
 
       <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col items-center justify-center px-6 pb-16 pt-6 text-center">

@@ -8,4 +8,5 @@ export const site = {
   tagline: "We crack complex problems",
   description:
     "Major Nutcracker is a technology and design team that turns complex problems into clear, useful and functional digital solutions.",
+  developersUrl: "https://developer.majornutcracker.com",
 };
