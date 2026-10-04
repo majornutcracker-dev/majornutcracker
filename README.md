@@ -1,6 +1,6 @@
 # majornutcracker
 
-Main website of Major Nutcracker — _We crack complex problems_.
+Main website of Majornutcracker — _We crack complex problems_.
 
 A single-page [Next.js](https://nextjs.org) site exported as static HTML and
 deployed to GitHub Pages. Unknown routes redirect to the home page.

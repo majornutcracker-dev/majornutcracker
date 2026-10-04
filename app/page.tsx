@@ -119,7 +119,7 @@ export default function Home() {
             About us
           </h2>
           <p className="mt-4 max-w-3xl font-display text-xl leading-snug text-cloud sm:text-2xl">
-            At Major Nutcracker, we love hard problems. We take them on,
+            At Majornutcracker, we love hard problems. We take them on,
             understand them, and turn them into digital solutions that actually
             work.
           </p>
